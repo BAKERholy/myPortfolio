@@ -1,0 +1,11 @@
+{
+  "name": "myPortfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BAKERholy/myPortfolio.git",
+  "author": "Дмитрий <76389902+BAKERholy@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.36.0"
+  }
+}
