@@ -6,7 +6,6 @@
     font-size: 34px;
     line-height: 42px;
 
-
     &-ru {
     border: none;
     background-color: #ffffff;
@@ -16,4 +15,16 @@
     border: none;
     background-color: #ffffff;
     }
+    
 }
+
+@media screen and (min-width: 576px) {
+    .language {
+        position: absolute;
+        top: 195px;
+        left: 1000px;
+        margin: 0 auto;
+        padding: 5px 50px 100px 50px;
+    }
+}
+    

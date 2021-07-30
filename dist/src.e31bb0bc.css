@@ -458,6 +458,15 @@ template {
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 576px) {
+  .language {
+    position: absolute;
+    top: 195px;
+    left: 1000px;
+    margin: 0 auto;
+    padding: 5px 50px 100px 50px;
+  }
+}
 .container {
   margin: 0 auto;
   max-width: 940px;
