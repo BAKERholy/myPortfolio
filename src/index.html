@@ -15,7 +15,7 @@
             <div class="nav__block">
                 <ul class="nav__list nav-list">
                     <li class="nav-list__item nav-list__item--active">
-                        <a class="nav-list__link" href="#">
+                        <a class="nav-list__link" href="#about__me">
                             About me
                         </a>
                     </li>
@@ -25,12 +25,12 @@
                         </a>
                     </li>
                     <li class="nav-list__item">
-                        <a class="nav-list__link" href="#">
+                        <a class="nav-list__link" href="#Portfolio">
                             Portfolio
                         </a>
                     </li>
                     <li class="nav-list__item">
-                        <a class="nav-list__link" href="#">
+                        <a class="nav-list__link" href="#contacts">
                             Contacts
                         </a>
                     </li>
@@ -76,6 +76,7 @@
                     srcset="./img/myPhoto/myphoto-mobile@2x.jpg" alt="my Photo" />
             </picture>
         </section>
+        <a id="about__me"></a>
         <section class="about__me">
             <h2 class="about__me-title">
                 About me
@@ -102,20 +103,28 @@
             <p class="skills__name">
                 Adobe
                 Photoshop
+                <img class="skills__rating" src="./img/rating/ratingPhotoshop.svg" width="166" height="26" alt="ratingphotoshop">    
             </p>
             <img class="skills__photoshop" src="./img/skills/illustrator.jpg" width="89" height="88" alt="Illustrator">
             <p class="skills__name">
                 Adobe
                 Illustrator
-            </p> <img class="skills__photoshop" src="./img/skills/effects.jpg" width="89" height="88" alt="Effects">
+                <img class="skills__rating" src="./img/rating/ratingillustrator.svg" width="166" height="26" alt="ratingIllustrator">
+            </p> 
+            <img class="skills__photoshop" src="./img/skills/effects.jpg" width="89" height="88" alt="Effects">
             <p class="skills_name">
                 Adobe
                 After Effects
-            </p> <img class="skills__photoshop" src="./img/skills/figma.jpg" width="58" height="88" alt="Figma">
+            <img class="skills__rating" src="./img/rating/ratingPhotoshop.svg" width="166" height="26" alt="ratingEffects">    
+            </p> 
+            <img class="skills__photoshop" src="./img/skills/figma.jpg" width="58" height="88" alt="Figma">
             <p class="skills__name">
                 Figma
+                <img class="skills__rating" src="./img/rating/ratingPhotoshop.svg" width="166" height="26" alt="ratingFigma">      
             </p>
+
         </section>
+        <a id="Portfolio"></a>
         <section class="Portfolio">
             <h2 class="portfolio__title">
                 Portfolio
@@ -189,6 +198,7 @@
             <button class="contacts__button">
                 Send message
             </button>
+            <a id="contacts"></a>
             <section class="contacts__social">
                 <a class="lcontacts" href="#">
                     <img src="img/social/LinkedIn.svg" width="40" height="40" alt="LinkedIn">
