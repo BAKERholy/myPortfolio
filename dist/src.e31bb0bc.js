@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./../fonts/Gilroylight.woff2":[["Gilroylight.9544303f.woff2","fonts/Gilroylight.woff2"],"fonts/Gilroylight.woff2"],"./../fonts/Gilroylight.woff":[["Gilroylight.c83eb28b.woff","fonts/Gilroylight.woff"],"fonts/Gilroylight.woff"],"./../fonts/Gilroyextrabold.woff2":[["Gilroyextrabold.f4addbf9.woff2","fonts/Gilroyextrabold.woff2"],"fonts/Gilroyextrabold.woff2"],"./../fonts/Gilroyextrabold.woff":[["Gilroyextrabold.64638bc7.woff","fonts/Gilroyextrabold.woff"],"fonts/Gilroyextrabold.woff"],"./../img/menu.svg":[["menu.aea80781.svg","img/menu.svg"],"img/menu.svg"],"_css_loader":"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./scss/style.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51772" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58226" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

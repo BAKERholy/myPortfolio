@@ -1,2 +1,47 @@
+@font-face {
+  font-family: "Gilroy-light";
+  font-style: normal;
+  src: local(""), url("/Gilroylight.9544303f.woff2") format("woff2"), url("/Gilroylight.c83eb28b.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroyextra-bold";
+  font-style: normal;
+  src: local(""), url("/Gilroyextrabold.f4addbf9.woff2") format("woff2"), url("/Gilroyextrabold.64638bc7.woff") format("woff");
+}
+.nav {
+  position: relative;
+  z-index: 1;
+}
+
+.nav--closed .nav__list {
+  display: none;
+}
+
+.nav__toggle {
+  right: 20px;
+  position: absolute;
+  top: 20px;
+  width: 22px;
+  height: 22px;
+  display: none;
+  background: url(/menu.aea80781.svg) no-repeat top left;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list__link {
+  font-family: "Gilroyextra-bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #090909;
+}
+
+.nav__block {
+  display: block;
+}
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
