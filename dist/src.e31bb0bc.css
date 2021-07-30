@@ -442,10 +442,20 @@ template {
 }
 
 .language {
+  transform: rotate(90deg);
+  margin: 0 auto;
+  padding: 0px 100px 250px 50px;
   font-family: "Gilroyextra-bold";
   font-size: 34px;
   line-height: 42px;
-  border-bottom-style: none;
+}
+.language-ru {
+  border: none;
+  background-color: #ffffff;
+}
+.language-eng {
+  border: none;
+  background-color: #ffffff;
 }
 
 .container {
