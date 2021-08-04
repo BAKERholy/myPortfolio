@@ -1,0 +1,18 @@
+.about__me {
+    background-color: #F6F6F6;
+    text-align: center;
+    width: 100%;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    &-title {
+        font-family: "Gilroyextra-bold";
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    @media screen and (max-width:576px){
+
+        
+    }
+}   
+

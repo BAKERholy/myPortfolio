@@ -1,0 +1,42 @@
+.skills {
+    text-align: center;
+    justify-content: center;
+
+    &__title {
+        font-family: "Gilroyextra-bold";
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__card {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: stretch;
+       }
+
+
+
+    @media screen and (max-width:576px) {
+        .skills__cards {
+            display: grid;
+            grid-template-columns: 1fr ;
+        }
+        .skills__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: stretch;
+
+        }
+    }
+}
