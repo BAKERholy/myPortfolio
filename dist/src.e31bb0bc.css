@@ -507,12 +507,19 @@ template {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .skills .skills__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: stretch;
-  }
+}
+
+.portfolio {
+  background-color: #F6F6F6;
+  text-align: center;
+  width: 100%;
+  margin-top: 83px;
+  margin-bottom: 83px;
+}
+.portfolio__title {
+  font-family: "Gilroyextra-bold";
+  font-size: 34px;
+  line-height: 42px;
 }
 
 .container {
